@@ -1,0 +1,223 @@
+* {
+  font-family: "Kanit", sans-serif !important;
+}
+
+body {
+  color: #044443 !important;
+  background-color: #ddd !important;
+}
+hr {
+  margin: -0.7rem 0 !important;
+}
+
+.txt-elip-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.txt-elip-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.txt-elip-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bg-navbar {
+  background: rgb(9, 121, 120);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 121, 120, 1) 35%,
+    rgba(0, 255, 231, 1) 100%
+  );
+}
+.bg-menu {
+  color: #fff !important;
+  border: none !important;
+  background-color: #097978 !important;
+}
+.bg-anime {
+  background-color: #09797820 !important;
+}
+
+.btn {
+  border: none !important;
+  transition: all 0.2s ease-out !important;
+}
+.btn.active {
+  border: none !important;
+  box-shadow: 0 0.125rem 0.25rem #01dac4 !important;
+}
+.btn:hover {
+  box-shadow: 0 0.125rem 0.25rem var(--bs-btn-bg) !important;
+}
+.btn-menu {
+  transition: all 0.2s ease-out !important;
+  font-weight: 500 !important;
+  color: #00ffe7 !important;
+  background-color: #00ffe720 !important;
+}
+.btn-menu:hover {
+  color: #fff !important;
+  background-color: #01dac4 !important;
+  box-shadow: 0 0.125rem 0.25rem #01dac4 !important;
+}
+.btn-auth {
+  border: none !important;
+  box-shadow: 0 0.125rem 0.25rem #01dac4 !important;
+}
+.btn-auth {
+  transition: all 0.2s ease-out !important;
+  font-weight: 500 !important;
+  color: #097978 !important;
+  background-color: #00ffe720 !important;
+  border: 1px solid #097978 !important;
+}
+.btn-auth:hover {
+  color: #fff !important;
+  background-color: #097978 !important;
+  box-shadow: 0 0.125rem 0.25rem #097978 !important;
+}
+.btn-auth:active {
+  border: 1px solid #097978 !important;
+}
+
+.nav-link {
+  padding: 0 0.6rem !important;
+}
+.nav-link:hover {
+  border-bottom: 2px solid #00ffe7;
+}
+.nav-link.active {
+  color: #00ffe7 !important;
+  border-bottom: 2px solid #00ffe7;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  max-width: 25px;
+  max-height: 25px;
+  margin-right: 4px;
+}
+.icon-sm {
+  width: 100%;
+  height: 100%;
+  max-width: 20px;
+  max-height: 20px;
+  margin-right: 4px;
+}
+
+.navbar-toggler {
+  background-color: #09797880 !important;
+  border: none !important;
+  outline: none !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.card-hover {
+  transition: all 0.2s ease-out !important;
+}
+.card-hover:hover {
+  box-shadow: 0 0.125rem 0.25rem #09797840;
+  transform: translateY(-0.2rem);
+}
+
+.slideshow {
+  position: relative;
+  max-width: 1000px;
+  max-height: 300px;
+  margin: 0 auto;
+}
+.items {
+  max-width: 1000px;
+  max-height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.items img {
+  width: 1000px;
+  height: 200px;
+  object-fit: cover;
+}
+.slideshow .slick-prev {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  z-index: 10;
+}
+.slideshow .slick-next {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  z-index: 10;
+}
+.slideshow .slick-arrow {
+  z-index: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+.slideshow .slick-dots {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.slideshow .slick-dots li {
+  list-style: none;
+  margin: 0 2px;
+  width: 10px;
+  height: 10px;
+  background-color: #00ffe7;
+  border-radius: 50%;
+}
+.slideshow .slick-active {
+  background-color: #097978 !important;
+}
+
+.list-group-item {
+  margin: 2px 0;
+  border: none !important;
+  transition: all 0.2s ease-out;
+}
+.list-group-item:hover {
+  background-color: #00ffe7;
+  box-shadow: 0 0.125rem 0.25rem #09797840;
+  transform: translateY(-0.2rem);
+}
+
+.form-control {
+  color: #044443 !important;
+  background-color: #00ffe7 !important;
+  border: 1px solid #09797810 !important;
+  outline: none !important;
+  transition: all 0.2s ease-out !important;
+}
+.form-control:hover {
+  background-color: #00ffe5e3 !important;
+}
+.form-control:focus {
+  border: 1px solid #09797840 !important;
+  outline: none !important;
+  box-shadow: 0 0.125rem 0.25rem #09797840 !important;
+  transform: translateY(-0.1rem);
+}
